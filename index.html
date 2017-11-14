@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pure JS pomodoro timer</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h1 class="main-title">Pomodoro Clock</h1>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="row">
+        <div class="col-sm-4">
+          <h2 class="break-title">Break</h2>
+        </div>
+
+        <div class="col-sm-4">
+          <h2 class="timer-title">Timer</h2>
+        </div>
+
+        <div class="col-sm-4">
+          <h2 class="session-title">Session</h2>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="col-sm-6">
+          </div>
+          <div class="col-sm-6 text-center">
+            <div id="breakLength"></div>
+            <button class="btn btnSide" id="breakSubTime">-</button>
+            <button class="btn btnSide" id="breakAddTime">+</button>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="row">
+            <h1 class="pomodoro" id="pomodoro"></h1>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 pomodoroButtons text-center">
+              <button class="btn btnMiddle" id="sessionStart">Start Session</button>
+              <button class="btn btnMiddle left" id="sessionPause">Pause Session</button>
+              <button class="btn btnMiddle right" id="sessionReset">Reset Session</button>
+
+              <button class="btn btnMiddle" id="breakStart">Start</button>
+              <button class="btn btnMiddle left" id="breakPause">Pause</button>
+              <button class="btn btnMiddle right" id="breakReset">Reset</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="col-sm-6 text-center">
+            <div id="sessionLength"></div>
+            <!-- <button class="btn btnSide" id="sessionSubTime">-</button>
+            <button class="btn btnSide" id="sessionAddTime">+</button> -->
+            <button class="pomodoro-btn btnSide" id="sessionTimeSubstract">-</button>
+            <button class="pomodoro-btn btnSide" id="sessionTimeAdd">+</button>
+          </div>
+          <div class="col-sm-6">
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>

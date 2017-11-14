@@ -1,0 +1,88 @@
+body,
+html {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro';
+  color: #BA5370;
+}
+
+*, *:before, *:after {
+ 	box-sizing: inherit;
+}
+
+.heading {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #BA5370, #F4E2D8);
+}
+
+.main-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.break-title {
+  text-transform: uppercase;
+  text-align: right;
+  margin-right: 19%;
+  font-size: 15px;
+}
+
+.timer-title {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.4em;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.session-title {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 18%;
+}
+
+#breakLength,
+#sessionLength {
+  font-size: 35px;
+}
+
+.btn {
+  font-size: 1.2em;
+  margin-right: .3em;
+}
+
+.btnSide {
+  background-color: #ffffff;
+  border: 1px solid #BA5370;
+  border-radius: 5px;
+}
+
+.btnSide:hover {
+  background-color: #BA5370;
+  color: #ffffff;
+}
+
+#pomodoro {
+  text-align: center;
+  font-size: 65px;
+  border: 1px solid #BA5370;
+  border-radius: 55px;
+  line-height: 1.5em;
+  margin-bottom: .3em;
+}
+
+.btnMiddle {
+  background-color: #ffffff;
+  border: 1px solid #BA5370;
+  border-radius: 50px;
+}
+
+.btnMiddle:hover {
+  background-color: #BA5370;
+  color: #ffffff;
+}
