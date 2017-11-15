@@ -1,4 +1,4 @@
 # Pomodoro-Timer
 
-Launch an application:
+See the app in action:
 https://victerek.github.io/Pomodoro-Timer/
